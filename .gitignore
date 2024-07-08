@@ -1,0 +1,39 @@
+# Compiled Python files
+*.pyc
+__pycache__/
+
+# Virtual environment
+venv/
+env/
+
+# Local development settings
+*.sqlite3
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.log
+
+# Media uploads (if not using a separate storage service like AWS S3)
+media/
+
+# Static files (if using collectstatic during deployment)
+staticfiles/
+
+# Secret keys and sensitive information
+*.secret
+*.key
+*.env
+
+# Configuration files that may contain sensitive information
+.env
+
+# IDE/Editor specific files
+.vscode/
+.idea/
+
+# Ignore migrations, unless you really need them
+**/migrations/*.py
+**/migrations/*.pyc
+
+# Ignore any other file or directory that is specific to your setup
